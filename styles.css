@@ -1,0 +1,22 @@
+/* variables */
+:root {
+    --clr-primary-300: hsla(144, 70%, 58%, 1);
+    --clr-primary-400: hsla(142, 93%, 65%, 1);
+
+    --clr-secondary-700: hsla(215, 28%, 17%, 1);
+    --clr-secondary-600: hsla(215, 30%, 22%, 1);
+
+    --clr-accent-400: hsla(160, 84%, 39%, 1);
+
+    --clr-neutral-800: hsla(0, 0%, 11%, 1);
+    --clr-neutral-500: hsla(215, 28%, 17%, 1);
+    --clr-neutral-100: hsla(152, 81%, 98%, 1);
+    --clr-neutral-200: #D5D4D8;
+
+    --ff-primary: "Karla", sans-serif;
+    --ff-secondary: "Inter", sans-serif;
+
+    --fw-extra-bold: 800;
+    --fw-regular: 400;
+    --fw-medium: 500;
+}
