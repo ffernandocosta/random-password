@@ -31,3 +31,29 @@ body {
     display: grid;
     place-content: center;
 }
+
+/* container styles */
+
+.container {
+    width: 34.375em;
+    height: 34.375em;
+    padding: 7rem 4rem;
+    background-color: var(--clr-secondary-700);
+    border-radius: 7px;
+}
+
+/* title style */
+
+.title-1 {
+    font-family: var(--ff-primary);
+    color: var(--clr-neutral-100);
+    font-size: 3rem;
+    
+}
+
+.title-2 {
+    font-family: var(--ff-primary);
+    color: var(--clr-primary-300);
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
