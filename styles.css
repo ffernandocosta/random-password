@@ -57,3 +57,17 @@ body {
     font-size: 3rem;
     margin-bottom: 0.5rem;
 }
+
+/* grid-area style */
+
+.grid-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 4.5rem;
+}
+
+.grid-area hr {
+    grid-column: span 2;
+    border: 1px solid var(--clr-secondary-600);
+}
