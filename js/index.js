@@ -30,8 +30,8 @@ const passwordTwo = randomPasswordGenerator();
 
 
 generatorBtn.addEventListener("click", () => {
-    
-    password1.textContent = passwordOne;
-    password2.textContent = passwordTwo;
+
+    password1.textContent = randomPasswordGenerator();
+    password2.textContent = randomPasswordGenerator();
 
 })
