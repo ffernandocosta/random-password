@@ -5,7 +5,7 @@ const generatorBtn = document.querySelector(".generator-btn");
 const password1 = document.querySelector(".password-1");
 const password2 = document.querySelector(".password-2");
 
-let passwordLenght = 12;
+let passwordLenght = 15;
 
 function getRandomCharacter() {
     
