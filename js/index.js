@@ -27,3 +27,11 @@ function randomPasswordGenerator() {
 
 const passwordOne = randomPasswordGenerator();
 const passwordTwo = randomPasswordGenerator();
+
+
+generatorBtn.addEventListener("click", () => {
+    
+    password1.textContent = passwordOne;
+    password2.textContent = passwordTwo;
+
+})
