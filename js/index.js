@@ -22,3 +22,6 @@ function randomPasswordGenerator() {
 
     return randomPassword
 }
+
+const passwordOne = randomPasswordGenerator();
+const passwordTwo = randomPasswordGenerator();
