@@ -2,6 +2,8 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 const generatorBtn = document.querySelector(".generator-btn");
+const password1 = document.querySelector(".password-1");
+const password2 = document.querySelector(".password-2");
 
 let passwordLenght = 12;
 
