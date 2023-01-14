@@ -119,6 +119,11 @@ img {
 /* responsive styles for smaller screens */
 
 @media screen and (max-width: 1350px) {
+    
+    body {
+        margin: 0 1rem;
+    }
+    
     main {
         display: flex;
         flex-direction: column;
@@ -131,6 +136,7 @@ img {
         padding: 1rem;
         text-align: center;
         width: 100%;
+        height: auto;
     }
 
     .title-1 {
