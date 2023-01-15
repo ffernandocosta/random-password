@@ -51,7 +51,7 @@ main {
     height: 100vh;
 }
 
-img {
+.main-img {
     width: 600px;
     margin-top: 1.5rem;
 }
@@ -139,6 +139,10 @@ img {
         height: auto;
     }
 
+    .main-img {
+        max-width: 325px;
+    }
+
     .title-1 {
         height: 60px;
     }
@@ -172,4 +176,5 @@ img {
         width: 55%;
         justify-self: center;
     }
+
 }
