@@ -141,6 +141,7 @@ main {
 
     .main-img {
         max-width: 325px;
+        margin: 0;
     }
 
     .title-1 {
