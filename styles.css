@@ -29,6 +29,7 @@ body {
     color: var(--clr-neutral-200);
     background-color: var(--clr-neutral-800);
     margin: 1.5rem;
+    display: grid;
 }
 
 /* container styles */
@@ -48,7 +49,6 @@ main {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    height: 100vh;
 }
 
 .main-img {
@@ -108,12 +108,23 @@ main {
     background-color: var(--clr-secondary-600);
     color: var(--clr-primary-400);
     min-width: 2.1875em;
-    max-width: 13.1875em;
+    max-width: 14.1875em;
     height: 2.4375em;
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    font-size: 11px; text-align: center; margin-top: 4rem;
+}
+
+.footer a {
+    color: var(--clr-accent-400);
 }
 
 /* responsive styles for smaller screens */
